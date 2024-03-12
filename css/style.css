@@ -888,3 +888,18 @@ hr { border-top: 1px solid #111010; }
 	text-align: left;
 	padding: 30px 20px;
 }
+
+.top-phone{
+	float: left;
+	max-width: 550px;
+	color: #fff;
+	font-size: 18px;
+	align-items: center;
+}
+
+
+@media screen and (min-width: 900px) {
+    .top-phone {
+        padding: 30px 0;
+    }
+}
